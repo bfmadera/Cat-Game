@@ -51,3 +51,11 @@ Help Gato get back home by:
 - `InterfaceCat.cs` → main game logic
 - `Game.csproj` → project configuration
 
+- ### Run in VS Code Terminal
+
+Open the project folder in **VS Code** and, in the terminal, run:
+
+```powershell
+$env:PATH = "C:\Users\YOUR_USERNAME\AppData\Local\Microsoft\dotnet;" + $env:PATH
+dotnet run
+
